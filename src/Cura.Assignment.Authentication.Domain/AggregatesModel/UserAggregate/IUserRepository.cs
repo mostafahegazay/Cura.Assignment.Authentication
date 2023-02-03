@@ -6,6 +6,6 @@ namespace Cura.Assignment.Authentication.Domain.AggregatesModel.UserAggregate
     {
         Task<User> AddAsync(User buyer);
         Task<User> FindAsync(string email);
-        Task<User> FindByIdAsync(string id);
+        Task<User> FindByIdAsync(Guid id);
     }
 }

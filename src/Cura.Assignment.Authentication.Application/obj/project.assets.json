@@ -1,0 +1,198 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Microsoft.AspNetCore.Cryptography.Internal/7.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/7.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "7.0.2"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Cura.Assignment.Authentication.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Cura.Assignment.Authentication.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cura.Assignment.Authentication.Application.Contracts.dll": {}
+        }
+      },
+      "Cura.Assignment.Authentication.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "7.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Cura.Assignment.Authentication.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cura.Assignment.Authentication.Domain.dll": {}
+        }
+      },
+      "Cura.Assignment.Authentication.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Cura.Assignment.Authentication.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Cura.Assignment.Authentication.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cura.Assignment.Authentication.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNetCore.Cryptography.Internal/7.0.2": {
+      "sha512": "Vvg3U7+6AmSTYHBKJc1ksbTVDwDs5C4ShJiS6IK8lTMM25a1fdZIZZ8zIr5qGoRgxI87wXJLNYElMCxJbTXb4A==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.internal/7.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "lib/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/net7.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
+        "microsoft.aspnetcore.cryptography.internal.7.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.internal.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/7.0.2": {
+      "sha512": "h7us9WZM1esC/B2pJNgKzZMjQP+azS2mS/qxJjW63VqMB+OmzYnDz7wqoBS29xiI9g8mvCC6eerzZiHR3zpOeg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/7.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/net462/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "lib/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
+        "microsoft.aspnetcore.cryptography.keyderivation.7.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
+      ]
+    },
+    "Cura.Assignment.Authentication.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Cura.Assignment.Authentication.Application.Contracts/Cura.Assignment.Authentication.Application.Contracts.csproj",
+      "msbuildProject": "../Cura.Assignment.Authentication.Application.Contracts/Cura.Assignment.Authentication.Application.Contracts.csproj"
+    },
+    "Cura.Assignment.Authentication.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Cura.Assignment.Authentication.Domain/Cura.Assignment.Authentication.Domain.csproj",
+      "msbuildProject": "../Cura.Assignment.Authentication.Domain/Cura.Assignment.Authentication.Domain.csproj"
+    },
+    "Cura.Assignment.Authentication.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Cura.Assignment.Authentication.Infrastructure/Cura.Assignment.Authentication.Infrastructure.csproj",
+      "msbuildProject": "../Cura.Assignment.Authentication.Infrastructure/Cura.Assignment.Authentication.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Cura.Assignment.Authentication.Application.Contracts >= 1.0.0",
+      "Cura.Assignment.Authentication.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mostafaemad\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\External\\CURA\\Assignment\\Cura.Assignment.Authentication\\src\\Cura.Assignment.Authentication.Application\\Cura.Assignment.Authentication.Application.csproj",
+      "projectName": "Cura.Assignment.Authentication.Application",
+      "projectPath": "C:\\External\\CURA\\Assignment\\Cura.Assignment.Authentication\\src\\Cura.Assignment.Authentication.Application\\Cura.Assignment.Authentication.Application.csproj",
+      "packagesPath": "C:\\Users\\mostafaemad\\.nuget\\packages\\",
+      "outputPath": "C:\\External\\CURA\\Assignment\\Cura.Assignment.Authentication\\src\\Cura.Assignment.Authentication.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mostafaemad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\External\\CURA\\Assignment\\Cura.Assignment.Authentication\\src\\Cura.Assignment.Authentication.Application.Contracts\\Cura.Assignment.Authentication.Application.Contracts.csproj": {
+              "projectPath": "C:\\External\\CURA\\Assignment\\Cura.Assignment.Authentication\\src\\Cura.Assignment.Authentication.Application.Contracts\\Cura.Assignment.Authentication.Application.Contracts.csproj"
+            },
+            "C:\\External\\CURA\\Assignment\\Cura.Assignment.Authentication\\src\\Cura.Assignment.Authentication.Infrastructure\\Cura.Assignment.Authentication.Infrastructure.csproj": {
+              "projectPath": "C:\\External\\CURA\\Assignment\\Cura.Assignment.Authentication\\src\\Cura.Assignment.Authentication.Infrastructure\\Cura.Assignment.Authentication.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Cura.Assignment.Authentication.API.props" />
+</Project>

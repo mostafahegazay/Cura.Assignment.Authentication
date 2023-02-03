@@ -1,0 +1,12 @@
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Application.Contracts\bin\Debug\net7.0\Cura.Assignment.Authentication.Application.Contracts.deps.json
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Application.Contracts\bin\Debug\net7.0\Cura.Assignment.Authentication.Application.Contracts.dll
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Application.Contracts\bin\Debug\net7.0\Cura.Assignment.Authentication.Application.Contracts.pdb
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Application.Contracts\obj\Debug\net7.0\Cura.Assignment.Authentication.Application.Contracts.csproj.AssemblyReference.cache
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Application.Contracts\obj\Debug\net7.0\Cura.Assignment.Authentication.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Application.Contracts\obj\Debug\net7.0\Cura.Assignment.Authentication.Application.Contracts.AssemblyInfoInputs.cache
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Application.Contracts\obj\Debug\net7.0\Cura.Assignment.Authentication.Application.Contracts.AssemblyInfo.cs
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Application.Contracts\obj\Debug\net7.0\Cura.Assignment.Authentication.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Application.Contracts\obj\Debug\net7.0\Cura.Assignment.Authentication.Application.Contracts.dll
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Application.Contracts\obj\Debug\net7.0\refint\Cura.Assignment.Authentication.Application.Contracts.dll
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Application.Contracts\obj\Debug\net7.0\Cura.Assignment.Authentication.Application.Contracts.pdb
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Application.Contracts\obj\Debug\net7.0\ref\Cura.Assignment.Authentication.Application.Contracts.dll

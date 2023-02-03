@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Cura.Assignment.Authentication.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Cura.Assignment.Authentication.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Cura.Assignment.Authentication.Infrastructure.dll": {}
+        }
+      },
+      "Cura.Assignment.Authentication.Domain/1.0.0": {
+        "runtime": {
+          "Cura.Assignment.Authentication.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cura.Assignment.Authentication.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cura.Assignment.Authentication.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Cura.Assignment.Authentication.Application/1.0.0": {
+        "dependencies": {
+          "Cura.Assignment.Authentication.Application.Contracts": "1.0.0",
+          "Cura.Assignment.Authentication.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "Cura.Assignment.Authentication.Application.dll": {}
+        }
+      },
+      "Cura.Assignment.Authentication.Application.Contracts/1.0.0": {
+        "runtime": {
+          "Cura.Assignment.Authentication.Application.Contracts.dll": {}
+        }
+      },
+      "Cura.Assignment.Authentication.Domain/1.0.0": {
+        "runtime": {
+          "Cura.Assignment.Authentication.Domain.dll": {}
+        }
+      },
+      "Cura.Assignment.Authentication.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Cura.Assignment.Authentication.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Cura.Assignment.Authentication.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cura.Assignment.Authentication.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cura.Assignment.Authentication.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cura.Assignment.Authentication.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cura.Assignment.Authentication.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Domain\bin\Debug\net7.0\Cura.Assignment.Authentication.Domain.deps.json
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Domain\bin\Debug\net7.0\Cura.Assignment.Authentication.Domain.dll
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Domain\bin\Debug\net7.0\Cura.Assignment.Authentication.Domain.pdb
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Domain\obj\Debug\net7.0\Cura.Assignment.Authentication.Domain.csproj.AssemblyReference.cache
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Domain\obj\Debug\net7.0\Cura.Assignment.Authentication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Domain\obj\Debug\net7.0\Cura.Assignment.Authentication.Domain.AssemblyInfoInputs.cache
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Domain\obj\Debug\net7.0\Cura.Assignment.Authentication.Domain.AssemblyInfo.cs
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Domain\obj\Debug\net7.0\Cura.Assignment.Authentication.Domain.csproj.CoreCompileInputs.cache
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Domain\obj\Debug\net7.0\Cura.Assignment.Authentication.Domain.dll
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Domain\obj\Debug\net7.0\refint\Cura.Assignment.Authentication.Domain.dll
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Domain\obj\Debug\net7.0\Cura.Assignment.Authentication.Domain.pdb
+C:\External\CURA\Assignment\Cura.Assignment.Authentication\src\Cura.Assignment.Authentication.Domain\obj\Debug\net7.0\ref\Cura.Assignment.Authentication.Domain.dll

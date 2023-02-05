@@ -28,7 +28,6 @@ namespace Cura.Assignment.Authentication.Domain.AggregatesModel.UserAggregate
           
             base.Id = Guid.NewGuid();
             Name = name;
-            base.CreatedAt = DateTime.Now;
         }
 
     }

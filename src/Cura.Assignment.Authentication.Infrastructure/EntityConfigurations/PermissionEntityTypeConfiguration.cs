@@ -13,7 +13,7 @@ namespace Cura.Assignment.Authentication.Infrastructure.EntityConfigurations
     {
         public void Configure(EntityTypeBuilder<Permission> userConfiguration)
         {
-            userConfiguration.ToTable("permissions" + IdentityContext.DEFAULT_SCHEMA);
+            userConfiguration.ToTable("Permissions" + IdentityContext.DEFAULT_SCHEMA);
             userConfiguration.HasKey(b => b.Id);
             userConfiguration.Property(b => b.Name)
                 .HasMaxLength(128)

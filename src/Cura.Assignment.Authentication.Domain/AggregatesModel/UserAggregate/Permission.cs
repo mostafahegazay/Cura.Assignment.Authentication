@@ -19,7 +19,7 @@ namespace Cura.Assignment.Authentication.Domain.AggregatesModel.UserAggregate
             this.permissions = new List<UserPermission>();
         }
 
-        public Permission(string name)
+        public Permission(string name) : this()
         {
             if (string.IsNullOrEmpty(name))
             {
@@ -27,8 +27,7 @@ namespace Cura.Assignment.Authentication.Domain.AggregatesModel.UserAggregate
             }
 
             base.Id = Guid.NewGuid();
-            Name = name;
-            base.CreatedAt = DateTime.Now;
+            this.Name = name;
         }
     }
 }

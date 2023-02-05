@@ -19,7 +19,7 @@ namespace Cura.Assignment.Authentication.Domain.AggregatesModel.UserAggregate
             this.permissions = new List<UserPermission>();
         }
 
-        public User(string name, string email)
+        public User(string name, string email) : this()
         {
             if (string.IsNullOrEmpty(email))
             {
@@ -32,7 +32,11 @@ namespace Cura.Assignment.Authentication.Domain.AggregatesModel.UserAggregate
             base.Id = Guid.NewGuid();
             Name = name;
             Email = email.ToLowerInvariant();
-            base.CreatedAt = DateTime.Now;
+        }
+
+        public User(string name, string email, Guid roleId) : this(name, email)
+        {
+            this.RoleId = roleId;
         }
 
         public void SetPassword(string password, IHashingService hashingService)

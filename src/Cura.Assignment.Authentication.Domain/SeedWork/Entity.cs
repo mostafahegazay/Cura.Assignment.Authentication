@@ -15,6 +15,10 @@
             }
         }
         public DateTime CreatedAt { get; protected set; }
+        protected Entity()
+        {
+           this.CreatedAt = DateTime.Now;
+        }
 
     }
 }

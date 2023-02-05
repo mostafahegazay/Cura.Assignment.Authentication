@@ -9,7 +9,7 @@ namespace Cura.Assignment.Authentication.Infrastructure.EntityConfigurations
     {
         public void Configure(EntityTypeBuilder<User> userConfiguration)
         {
-            userConfiguration.ToTable("users" + IdentityContext.DEFAULT_SCHEMA);
+            userConfiguration.ToTable("Users" + IdentityContext.DEFAULT_SCHEMA);
             userConfiguration.HasKey(b => b.Id);
             userConfiguration.Property(b => b.Name)
                 .HasMaxLength(128)

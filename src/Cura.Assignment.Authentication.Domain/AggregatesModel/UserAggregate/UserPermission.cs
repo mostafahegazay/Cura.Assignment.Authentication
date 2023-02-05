@@ -17,7 +17,6 @@ namespace Cura.Assignment.Authentication.Domain.AggregatesModel.UserAggregate
             base.Id = Guid.NewGuid();
             this.PermssionId = permissionId;
             this.UserId = userId;
-            base.CreatedAt = DateTime.Now;
         }
     }
 }

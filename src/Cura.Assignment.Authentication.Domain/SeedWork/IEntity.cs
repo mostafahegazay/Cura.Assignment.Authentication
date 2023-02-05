@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cura.Assignment.Authentication.Domain.SeedWork
 {
-    public interface IRepository<T> where T : IEntity
+    public interface IEntity
     {
-        IUnitOfWork UnitOfWork { get; }
     }
 }

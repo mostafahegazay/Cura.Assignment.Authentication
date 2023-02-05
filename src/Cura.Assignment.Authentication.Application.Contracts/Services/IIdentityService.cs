@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cura.Assignment.Authentication.Application.Contracts.Dtos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace Cura.Assignment.Authentication.Application.Contracts.Services
 {
     public interface IIdentityService
     {
-        Task<TokenResult> LoginAsync(string username, string password);
+        Task<TokenResultDto> LoginAsync(string username, string password);
     }
 }

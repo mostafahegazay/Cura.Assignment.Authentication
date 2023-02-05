@@ -22,14 +22,10 @@ namespace Cura.Assignment.Authentication.Infrastructure.EntityConfigurations
             userConfiguration.HasIndex("Email")
                 .IsUnique(true);
 
-            //userConfiguration.HasMany(b => b.PaymentMethods)
-            //   .WithOne()
-            //   .HasForeignKey("BuyerId")
-            //   .OnDelete(DeleteBehavior.Cascade);
-
-            //var navigation = buyerCouserConfigurationfiguration.Metadata.FindNavigation(nameof(Buyer.PaymentMethods));
-
-            //navigation.SetPropertyAccessMode(PropertyAccessMode.Field);
+            userConfiguration.HasMany(b => b.Permissions)
+               .WithOne(k => k.User)
+               .HasForeignKey(f => f.UserId)
+               .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

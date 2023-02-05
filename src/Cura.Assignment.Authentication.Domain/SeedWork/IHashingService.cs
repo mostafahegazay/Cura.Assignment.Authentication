@@ -1,5 +1,4 @@
-﻿
-namespace Cura.Assignment.Authentication.Domain.Application
+﻿namespace Cura.Assignment.Authentication.Domain.SeedWork
 {
     public interface IHashingService
     {

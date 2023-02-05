@@ -14,6 +14,7 @@
                 _id = value;
             }
         }
+        public DateTime CreatedAt { get; protected set; }
 
     }
 }

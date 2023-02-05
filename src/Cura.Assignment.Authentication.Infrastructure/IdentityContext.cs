@@ -11,6 +11,9 @@ namespace Cura.Assignment.Authentication.Infrastructure
     {
         public const string DEFAULT_SCHEMA = "Identity";
         public DbSet<User> Users { get; set; }
+        public DbSet<Role> Roles { get; set; }
+        public DbSet<Permission> Permissions { get; set; }
+        public DbSet<UserPermission> UserPermissions { get; set; }
 
         public IdentityContext(DbContextOptions<IdentityContext> options) : base(options) { }
 
@@ -22,6 +25,9 @@ namespace Cura.Assignment.Authentication.Infrastructure
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new UserEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new RoleEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new PermissionEntityTypeConfiguration());
+            modelBuilder.ApplyConfiguration(new UserPermissionEntityTypeConfiguration());
         }
     }
 }

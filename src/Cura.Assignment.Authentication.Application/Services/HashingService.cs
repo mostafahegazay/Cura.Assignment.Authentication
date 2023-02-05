@@ -2,7 +2,7 @@
 using Cura.Assignment.Authentication.Domain.SeedWork;
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 
-namespace Cura.Assignment.Authentication.Domain.Application
+namespace Cura.Assignment.Authentication.Application.Services
 {
     public class HashingService : IHashingService
     {

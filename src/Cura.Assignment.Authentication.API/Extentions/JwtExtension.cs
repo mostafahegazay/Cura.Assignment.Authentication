@@ -1,4 +1,4 @@
-﻿using Cura.Assignment.Authentication.API;
+﻿using Cura.Assignment.Authentication.API.Common;
 using Cura.Assignment.Authentication.Application.Contracts.Authentication;
 using Cura.Assignment.Authentication.Application.Contracts.Consts;
 using Cura.Assignment.Authentication.Application.Contracts.Handlers;

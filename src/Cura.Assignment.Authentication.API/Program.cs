@@ -1,4 +1,5 @@
 using Cura.Assignment.Authentication.API.Extentions;
+using Cura.Assignment.Authentication.API.Filters;
 using Cura.Assignment.Authentication.Application.Contracts.Extensions;
 using Cura.Assignment.Authentication.Infrastructure;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,11 @@ builder.Services.AddJwt(builder.Configuration);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add(typeof(ExternalExceptionFilter));
+});
 
 var app = builder.Build();
 

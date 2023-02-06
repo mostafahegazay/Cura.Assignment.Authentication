@@ -2,7 +2,7 @@
 using System.Security.Claims;
 using System.Text.Json;
 
-namespace Cura.Assignment.Authentication.API
+namespace Cura.Assignment.Authentication.API.Common
 {
     public class ClaimsTransformer : IClaimsTransformation
     {

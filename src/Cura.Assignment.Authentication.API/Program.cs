@@ -1,21 +1,22 @@
-using Cura.Assignment.Authentication.Application.Services;
-using Cura.Assignment.Authentication.Domain.SeedWork;
+using Cura.Assignment.Authentication.API.Extentions;
+using Cura.Assignment.Authentication.Application.Contracts.Extensions;
 using Cura.Assignment.Authentication.Infrastructure;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddScoped<IHashingService, HashingService>();
+builder.Services.AddRepositories();
+builder.Services.AddServices();
 
 builder.Services.AddDbContext<IdentityContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
 
+builder.Services.AddJwt(builder.Configuration);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -34,7 +35,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

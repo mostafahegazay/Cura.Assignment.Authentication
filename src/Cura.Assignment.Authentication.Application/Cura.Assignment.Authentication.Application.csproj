@@ -1,6 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Cura.Assignment.Authentication.Infrastructure\Cura.Assignment.Authentication.Infrastructure.csproj" />
     <ProjectReference Include="..\Cura.Assignment.Authentication.Application.Contracts\Cura.Assignment.Authentication.Application.Contracts.csproj" />
   </ItemGroup>

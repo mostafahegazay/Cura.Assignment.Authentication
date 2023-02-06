@@ -28,11 +28,16 @@ namespace Cura.Assignment.Authentication.Infrastructure.Repositories
             return entry.Entity;
         }
 
-        public async Task<User> FindAsync(string email)
+        public async Task<User> FindAsync(string email, bool isIncludeDetails = false)
         {
-            var user = await _context.Users
-                .Where(b => b.Email == email.ToLowerInvariant())
-                .SingleOrDefaultAsync();
+            var query = _context.Users
+                .Where(b => b.Email == email.ToLowerInvariant());
+            if (isIncludeDetails)
+            {
+                query = query.Include(usr => usr.Role);
+                query = query.Include(usr => usr.Permissions).ThenInclude(x => x.Permission);
+            }
+            var user = await query.SingleOrDefaultAsync();
 
             return user;
         }

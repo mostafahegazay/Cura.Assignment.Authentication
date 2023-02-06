@@ -50,7 +50,7 @@ namespace Cura.Assignment.Authentication.Domain.AggregatesModel.UserAggregate
             this.Password = hashingService.GetHash(password, this.Salt);
         }
 
-        public void IsValidPassword(string password, IHashingService hashingService) => this.Password.Equals(hashingService.GetHash(password, this.Salt));
+        public bool IsValidPassword(string password, IHashingService hashingService) => this.Password.Equals(hashingService.GetHash(password, this.Salt));
 
         public void SetRole(Guid roleId) => this.RoleId = roleId;
         public void SetPermission(Guid permissionId)
